@@ -59,6 +59,11 @@
   color: white;
   background-color: black;
   margin-top: 16px;
+  transition: all 0.3s ease;
+}
+
+.subscribe__form-button:hover {
+  background-color: gray;
 }
 
 @media (max-width: 720px) {

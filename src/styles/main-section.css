@@ -36,6 +36,11 @@
   line-height: 20px;
   padding: 7px 23px 9px;
   border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.main-section__button:hover {
+  background-color: gray;
 }
 
 @media (max-width: 1201px) {
