@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul,
+li,
+a,
+img,
+p,
+h1,
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+footer {
+  padding: 0;
+  margin: 0;
+}

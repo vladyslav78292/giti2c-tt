@@ -1,0 +1,110 @@
+.bestsellers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bastsellers__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.bestsellers__paragraph {
+  width: 632px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 27px;
+}
+
+.bestsellers__addictional {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 47px;
+}
+
+.bestsellers__second-title {
+  margin-top: 88px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.bestsellers__cards {
+  margin-top: 52px;
+  margin-bottom: 248px;
+  display: flex;
+  align-items: center;
+  gap: 61px;
+  justify-content: center;
+}
+
+.bestsellers__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bestseller__card-image {
+  width: 100%;
+}
+
+.bestsellers__card-title {
+  width: 164px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 19px;
+  line-height: 20px;
+}
+
+.bestsellers__card-price {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.bestsellers__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 1201px) {
+  .bestseller__card-image {
+    width: 210px;
+  }
+
+  .bestsellers__cards {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 720px) {
+  .bestsellers__cards {
+    flex-direction: column;
+    margin-bottom: 107px;
+  }
+
+  .bestsellers__paragraph {
+    width: 310px;
+  }
+}

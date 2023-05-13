@@ -1,0 +1,133 @@
+.card_description--first {
+  display: flex;
+  flex-direction: column;
+  width: 498px;
+}
+
+.card_description--second {
+  display: flex;
+  flex-direction: column;
+  width: 513px;
+  align-items: flex-end;
+}
+
+.card_description--third {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+}
+
+.card__info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 76px 0  51px 188px;
+}
+
+.card__info--first {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.card__info--third {
+  background-color: rgba(204, 204, 204, 0.3);
+}
+
+.card__info--second {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 76px 188px 51px 0;
+  background-color: rgba(204, 204, 204, 0.6);
+  text-align: right;
+}
+
+.card__description-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.card__description-paragraph {
+  margin-top: 31px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.card__addictional-paragraph {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 17px;
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card__addictional-paragraph--second {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 17px;
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+  width: fit-content;
+  display: inline-block;
+}
+
+.card__addictional-paragraph::after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  bottom: 2px;
+  height: 1px;
+  position: absolute;
+}
+
+.card__addictional-paragraph--second::after {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+  bottom: 2px;
+  height: 1px;
+  position: absolute;
+  /* stylelint-disable-next-line length-zero-no-unit */
+  left: 0px;
+}
+
+@media (max-width: 1201px) {
+  .card_description {
+    width: 381px;
+  }
+
+  .card_description--second {
+    width: 381px;
+  }
+
+  .card__info {
+    padding: 76px 0  51px 20px;
+  }
+
+  .card__info--second {
+    padding: 76px 20px 51px 0;
+  }
+
+  .card {
+    width: 295px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card__info {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card_description {
+    width: auto;
+  }
+}

@@ -1,0 +1,170 @@
+.feedback {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback__title {
+  width: 743px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 163px;
+  text-align: center;
+}
+
+.feedback__people {
+  position: absolute;
+  display: flex;
+  gap: 100px;
+}
+
+.feedback__people-container {
+  display: flex;
+  background-color: rgba(240, 240, 240, 1);
+  width: 100%;
+  justify-content: center;
+  margin-top: 290px;
+}
+
+.feedback__person {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.feedback__person-container {
+  display: flex;
+  padding-top: 198px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.feedback__person-container--second {
+  margin: 0 110px 0 126px;
+}
+
+.feebback__person-location {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.feebback__person-location--first {
+  margin-top: 40px;
+}
+
+.feedback__addictional {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  position: relative;
+  margin-top: 44px;
+  margin-bottom: 52px;
+}
+
+.feedback__addictional::after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  bottom: 2px;
+  height: 1px;
+  position: absolute;
+}
+
+@media (max-width: 1201px) {
+  .feedback__people {
+    gap: 40px;
+  }
+
+  .feedback__person-container {
+    width: 210px;
+  }
+
+  .feedback__person-container--second {
+    margin: 0 40px;
+  }
+
+  .feedback__person-image {
+    width: 210px;
+  }
+  .feedback__title {
+    width: 650px;
+  }
+}
+
+@media (max-width: 720px) {
+  .feedback__title {
+    margin-top: 110px;
+    width: 310px;
+    font-size: 24px;
+  }
+
+  .feedback__person {
+    width: 300px;
+  }
+
+  .feedback__person-container--second {
+    margin: 0;
+    position: relative;
+    top: 80px;
+  }
+
+  .feedback__people {
+    flex-direction: column;
+    align-items: center;
+    gap: 130px;
+  }
+
+  .feedback__people-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    margin-top: 80px;
+  }
+
+  .feedback__person--second {
+    position: relative;
+    top: 110px;
+  }
+
+  .feedback__person--third {
+    position: relative;
+    top: 240px;
+  }
+
+  .feedback__person-container--third {
+    position: relative;
+    top: 10px;
+  }
+
+  .feebback__person-location--first {
+    margin-top: 15px;
+  }
+
+  .feebback__person-location {
+    margin-top: 15px;
+  }
+
+  .feedback__addictional {
+    margin-top: 15px;
+  }
+
+  .feedback__person-container {
+    width: 300px;
+  }
+
+  .feedback__person-container--first {
+    position: relative;
+    top: 150px;
+  }
+}
